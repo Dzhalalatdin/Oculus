@@ -24,7 +24,6 @@ html{
 *::before,
 *::after{
   box-sizing: inherit;
-	/* overflow-x: hidden; */
 }
 
 body {
@@ -119,7 +118,7 @@ button {
 
 .intro {
 	min-height: calc(100vh - 81px);
-	background: url(/images/background-intro.png);
+	background: url(../images/background-intro.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom center;
@@ -238,7 +237,7 @@ button {
 	grid-column: 2/3;
 	width: 280px;
 	height: 150px;
-	background: url(/images/features-content-video.png);
+	background: url(../images/features-content-video.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -331,7 +330,8 @@ margin-bottom: 50px;
 	margin: 0 auto;
 	margin-bottom: 110px;
 	text-align: center;
-	overflow: hidden;
+	overflow-x: hidden;
+	position: relative;
 }
 
 .buy__img {
